@@ -1,12 +1,12 @@
 ﻿using Entities.Configuration;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using monovi.bookshop.model;
+using monovi.bookstore.model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace monovi.bookshop.dal
+namespace monovi.bookstore.dal
 {
     public class ApplicationDbContext : IdentityDbContext
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using monovi.bookshop.dal;
-using monovi.bookshop.dal.Repository.IRepository;
-using monovi.bookshop.utility.Account;
+using monovi.bookstore.dal;
+using monovi.bookstore.dal.Repository.IRepository;
+using monovi.bookstore.utility.Account;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 
-namespace monovi.bookshop.dal.Repository
+namespace monovi.bookstore.dal.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {

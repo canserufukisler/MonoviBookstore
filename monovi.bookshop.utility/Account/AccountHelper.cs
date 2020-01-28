@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace monovi.bookshop.utility.Account
+namespace monovi.bookstore.utility.Account
 {
     public static class AccountHelper
     {

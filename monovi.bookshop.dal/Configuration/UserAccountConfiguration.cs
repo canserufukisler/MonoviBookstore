@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using monovi.bookshop.model;
+using monovi.bookstore.model;
 using System;
 
 namespace Entities.Configuration

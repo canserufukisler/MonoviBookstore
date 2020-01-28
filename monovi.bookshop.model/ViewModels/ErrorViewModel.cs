@@ -1,6 +1,6 @@
 using System;
 
-namespace monovi.bookshop.model.ViewModels
+namespace monovi.bookstore.model.ViewModels
 {
     public class ErrorViewModel
     {

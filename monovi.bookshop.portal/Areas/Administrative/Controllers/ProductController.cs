@@ -5,10 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using monovi.bookshop.dal.Repository.IRepository;
-using monovi.bookshop.model;
+using monovi.bookstore.dal.Repository.IRepository;
+using monovi.bookstore.model;
 
-namespace monovi.bookshop.portal.Areas.Administrative.Controllers
+namespace monovi.bookstore.portal.Areas.Administrative.Controllers
 {
     public class ProductController : Controller
     {

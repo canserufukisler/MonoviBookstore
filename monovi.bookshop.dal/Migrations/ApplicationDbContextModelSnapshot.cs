@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using monovi.bookshop.dal;
+using monovi.bookstore.dal;
 
-namespace monovi.bookshop.dal.Migrations
+namespace monovi.bookstore.dal.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -215,7 +215,7 @@ namespace monovi.bookshop.dal.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("monovi.bookshop.model.Product", b =>
+            modelBuilder.Entity("monovi.bookstore.model.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -262,7 +262,7 @@ namespace monovi.bookshop.dal.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("monovi.bookshop.model.UserAccount", b =>
+            modelBuilder.Entity("monovi.bookstore.model.UserAccount", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -349,15 +349,15 @@ namespace monovi.bookshop.dal.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("monovi.bookshop.model.Product", b =>
+            modelBuilder.Entity("monovi.bookstore.model.Product", b =>
                 {
-                    b.HasOne("monovi.bookshop.model.UserAccount", "CreatedUser")
+                    b.HasOne("monovi.bookstore.model.UserAccount", "CreatedUser")
                         .WithMany()
                         .HasForeignKey("CreatedUserID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("monovi.bookshop.model.UserAccount", "ModifiedUser")
+                    b.HasOne("monovi.bookstore.model.UserAccount", "ModifiedUser")
                         .WithMany()
                         .HasForeignKey("ModifiedUserID");
                 });

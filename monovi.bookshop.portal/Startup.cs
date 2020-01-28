@@ -9,11 +9,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using monovi.bookshop.dal;
-using monovi.bookshop.dal.Repository;
-using monovi.bookshop.dal.Repository.IRepository;
+using monovi.bookstore.dal;
+using monovi.bookstore.dal.Repository;
+using monovi.bookstore.dal.Repository.IRepository;
 
-namespace monovi.bookshop.portal
+namespace monovi.bookstore.portal
 {
     public class Startup
     {

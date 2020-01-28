@@ -1,9 +1,9 @@
-﻿using monovi.bookshop.dal.Repository.IRepository;
+﻿using monovi.bookstore.dal.Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace monovi.bookshop.dal.Repository
+namespace monovi.bookstore.dal.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {

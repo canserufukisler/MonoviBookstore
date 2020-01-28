@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace monovi.bookshop.dal.Repository.IRepository
+namespace monovi.bookstore.dal.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace monovi.bookshop.dal.Migrations
+namespace monovi.bookstore.dal.Migrations
 {
     public partial class CreateDatabase : Migration
     {

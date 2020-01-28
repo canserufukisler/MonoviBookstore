@@ -1,12 +1,12 @@
-﻿using monovi.bookshop.dal.Repository.IRepository;
-using monovi.bookshop.model;
-using monovi.bookshop.utility.Account;
+﻿using monovi.bookstore.dal.Repository.IRepository;
+using monovi.bookstore.model;
+using monovi.bookstore.utility.Account;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace monovi.bookshop.dal.Repository
+namespace monovi.bookstore.dal.Repository
 {
     public class ProductRepository : Repository<Product>, IProductRepository
     {

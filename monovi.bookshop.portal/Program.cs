@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace monovi.bookshop.portal
+namespace monovi.bookstore.portal
 {
     public class Program
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace monovi.bookshop.model
+namespace monovi.bookstore.model
 {
     public class UserAccount 
     {

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace monovi.bookshop.model
+namespace monovi.bookstore.model
 {
     public class BaseTable
     {
